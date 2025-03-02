@@ -6,7 +6,7 @@ function showSection(sectionId) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  showSection("intro");
+  showSection("hero");
 });
 
 function toggleSidebar() {
