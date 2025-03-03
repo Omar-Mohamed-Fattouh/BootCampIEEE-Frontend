@@ -25,12 +25,13 @@ h3 {
 }
 #intro p,
 li {
-  background-color: #19638e;
+  background-color: #056196;
   padding: 10px;
   border-radius: 8px;
+  margin: 4px;
 }
 pre {
-  background-color: #064468;
+  background-color: #063550;
 }
 a {
   color: #ffd700;
@@ -75,6 +76,7 @@ a:hover {
 #sidebar button:hover,
 #sidebar button:focus {
   transform: translateY(-5px);
+  background: #2a81c8;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 
@@ -103,7 +105,7 @@ a:hover {
 }
 
 #main-content.expanded {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 10px;
   margin-left: 280px;
 }
 
@@ -142,7 +144,12 @@ section h2 {
   font-size: 2rem;
   animation: slideInLeft 1s ease-in-out;
 }
-
+.imp-tag {
+  text-decoration: underline;
+  text-decoration-color: rgb(4, 224, 4);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
 table {
   width: 100%;
   border-collapse: collapse;
@@ -235,6 +242,7 @@ footer p {
     z-index: 1000;
     transition: transform 0.3s ease;
     width: 150px;
+    /* height: 100vh; */
   }
 
   #sidebar.expanded {
@@ -242,7 +250,7 @@ footer p {
   }
 
   #main-content {
-    margin-left: 20px;
+    width: 100%;
     transition: margin-left 0.3s ease;
   }
 
@@ -261,5 +269,9 @@ footer p {
 
   #toggle-sidebar.collapsed {
     left: 200px;
+  }
+  table {
+    overflow: auto;
+    max-width: 100%;
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IEEE SCU</title>
-    <link rel="icon" href="./logo.webp" type="image/png" />
+    <link rel="icon" href="/logo.webp" type="image/png" />
 
     <link rel="stylesheet" href="style.css" />
     <style></style>
@@ -18,14 +18,13 @@
       <button onclick="showSection('frontend-development')">
         Frontend Development
       </button>
-      <button onclick="showSection('intro')">Introduction</button>
+      <button onclick="showSection('intro')">Introduction HTML</button>
       <button onclick="showSection('structure')">Document Structure</button>
       <button onclick="showSection('content')">Content Sectioning</button>
       <button onclick="showSection('text')">Text Formatting</button>
       <button onclick="showSection('forms')">Forms & Input</button>
       <button onclick="showSection('tables')">Tables</button>
       <button onclick="showSection('media')">Media & Embedding</button>
-      <button onclick="showSection('interactive')">Interactive Elements</button>
       <button onclick="showSection('interactive')">Interactive Elements</button>
     </div>
 
@@ -36,9 +35,10 @@
     <div id="main-content">
       <!-- Header -->
       <header>
-        <img src="./logo.webp" alt="IEEE SCU Logo" class="logo" loading="lazy" />
-        <h1>IEEE SCU Student Branch - Frontend Development Bootcamp</h1>
-        <p>HTML - Hypertext Markup Language</p>
+        <img src="/logo.webp" alt="IEEE SCU Logo" class="logo" loading="lazy" />
+        <h1>IEEE SCU Student Branch</h1>
+        <h2>Frontend Development Bootcamp</h2>
+        <p>HTML Documentation</p>
       </header>
 
       <section id="hero">
@@ -142,66 +142,82 @@
             start a business, or contribute to open-source communities.
           </li>
         </ul>
-
-        <h3>The Tools of the Trade</h3>
+        <h3>The Web Development Lifecycle</h3>
         <p>
-          Web development relies on a variety of tools and technologies. Here
-          are some of the most essential ones:
+          Building a website or application is a multi-stage process that
+          involves collaboration between designers, developers, and other
+          stakeholders. Here’s a breakdown of the web development lifecycle:
         </p>
-        <ul>
-          <li>
-            <strong>HTML:</strong> The backbone of every website, used to
-            structure content.
-          </li>
-          <li>
-            <strong>CSS:</strong> The language used to style and design
-            websites, making them visually appealing.
-          </li>
-          <li>
-            <strong>JavaScript:</strong> The programming language that adds
-            interactivity and dynamic behavior to websites.
-          </li>
-          <li>
-            <strong>Frameworks and Libraries:</strong> Tools like React,
-            Angular, and Vue.js for front-end development, and Django, Flask, or
-            Express for back-end development.
-          </li>
-          <li>
-            <strong>Version Control:</strong> Systems like Git and platforms
-            like GitHub help developers collaborate and manage code.
-          </li>
-          <li>
-            <strong>DevTools:</strong> Browser developer tools for debugging and
-            optimizing websites.
-          </li>
-        </ul>
-
-        <h3>The Web Development Process</h3>
-        <p>Building a website or application involves several steps:</p>
         <ol>
           <li>
-            <strong>Planning:</strong> Define the purpose, target audience, and
-            features of the website.
+            <strong>Requirement Analysis:</strong>
+            <p>
+              The first step is to understand the project's goals, target
+              audience, and functionality requirements. This involves gathering
+              input from stakeholders and defining the scope of the project.
+            </p>
           </li>
           <li>
-            <strong>Design:</strong> Create wireframes and mockups to visualize
-            the layout and user experience.
+            <strong>UI/UX Design:</strong>
+            <p>
+              User Interface (UI) and User Experience (UX) design focus on
+              creating a visually appealing and user-friendly interface. This
+              stage involves wireframing, prototyping, and designing the layout,
+              typography, and color schemes. Tools like Figma, Adobe XD, or
+              Sketch are commonly used.
+            </p>
           </li>
           <li>
-            <strong>Development:</strong> Write the code for the front-end and
-            back-end functionality.
+            <strong>Front-End Development:</strong>
+            <p>
+              Once the design is finalized, front-end developers bring it to
+              life using HTML, CSS, and JavaScript. They ensure the website is
+              responsive, interactive, and visually consistent across devices.
+            </p>
           </li>
           <li>
-            <strong>Testing:</strong> Test the website for bugs, responsiveness,
-            and performance.
+            <strong>Back-End Development:</strong>
+            <p>
+              Back-end developers work on the server-side logic, databases, and
+              APIs that power the website. They ensure data is stored securely
+              and retrieved efficiently. Technologies like Node.js, Django, or
+              Ruby on Rails are often used.
+            </p>
           </li>
           <li>
-            <strong>Deployment:</strong> Launch the website on a server and make
-            it accessible to users.
+            <strong>SEO Optimization:</strong>
+            <p>
+              Search Engine Optimization (SEO) ensures the website ranks well on
+              search engines like Google. This involves optimizing content, meta
+              tags, images, and site speed, as well as ensuring the website is
+              mobile-friendly and accessible.
+            </p>
           </li>
           <li>
-            <strong>Maintenance:</strong> Regularly update and improve the
-            website to keep it secure and functional.
+            <strong>Testing and Quality Assurance:</strong>
+            <p>
+              Before launching, the website undergoes rigorous testing to
+              identify and fix bugs, ensure compatibility across browsers and
+              devices, and validate performance. Tools like Selenium or Jest are
+              often used for testing.
+            </p>
+          </li>
+          <li>
+            <strong>Deployment:</strong>
+            <p>
+              Once the website is tested and approved, it is deployed to a live
+              server. This involves configuring the server, setting up domain
+              names, and ensuring the website is accessible to users.
+            </p>
+          </li>
+          <li>
+            <strong>Maintenance and Updates:</strong>
+            <p>
+              After deployment, the website requires regular maintenance to fix
+              bugs, update content, and improve performance. This ensures the
+              website remains secure, functional, and up-to-date with the latest
+              technologies.
+            </p>
           </li>
         </ol>
 
@@ -224,56 +240,11 @@
             <strong>Continuous Learning:</strong> The tech industry is always
             evolving, offering endless opportunities to learn and grow.
           </li>
-          <li>
-            <strong>Impact:</strong> You can create solutions that improve
-            people’s lives, whether it’s a personal project or a large-scale
-            application.
-          </li>
         </ul>
-
-        <h3>How to Get Started</h3>
-        <p>
-          Ready to dive into web development? Here’s how to begin your journey:
-        </p>
-        <ol>
-          <li>
-            <strong>Learn the Basics:</strong> Start with HTML, CSS, and
-            JavaScript. These are the building blocks of the web.
-          </li>
-          <li>
-            <strong>Practice:</strong> Build small projects like a personal
-            portfolio, a blog, or a to-do list app.
-          </li>
-          <li>
-            <strong>Explore Frameworks:</strong> Once you’re comfortable with
-            the basics, explore frameworks like React or Node.js.
-          </li>
-          <li>
-            <strong>Join the Community:</strong> Participate in online forums,
-            attend meetups, and contribute to open-source projects.
-          </li>
-          <li>
-            <strong>Never Stop Learning:</strong> The web is constantly
-            evolving, so stay curious and keep learning new technologies.
-          </li>
-        </ol>
-
-        <h3>Conclusion</h3>
-        <p>
-          Web development is a dynamic and rewarding field that offers endless
-          opportunities to create, innovate, and make an impact. Whether you’re
-          building your first website or developing a complex web application,
-          the skills you learn will empower you to shape the digital world. So,
-          take the first step, start coding, and join the vibrant community of
-          web developers who are building the future of the internet.
-        </p>
-        <p>
-          Remember, every great website or app starts with a single line of
-          code. What will you create?
-        </p>
       </section>
       <section id="frontend-development">
         <h2>Frontend Web Development: Building the User Experience</h2>
+        <h3>What is Frontend Development?</h3>
         <p>
           Frontend web development is the art of creating the visual and
           interactive parts of a website or web application. It’s what users
@@ -283,13 +254,13 @@
           frontend development is, the skills you need to master it, and what
           the future holds for this exciting field.
         </p>
+
         <p>
           Whether you’re just starting out or looking to advance your skills,
           this guide will provide you with a clear roadmap to becoming a
           successful frontend developer.
         </p>
 
-        <h3>What is Frontend Development?</h3>
         <p>
           Frontend development focuses on the client-side of web development—the
           part that users interact with directly. It involves:
@@ -367,184 +338,6 @@
             </ul>
           </li>
         </ul>
-
-        <h4>Advanced Frontend Concepts</h4>
-        <p>
-          Beyond the basics, frontend development involves advanced techniques
-          and tools to build modern, scalable, and efficient web applications:
-        </p>
-        <ul>
-          <li>
-            <strong>Component-Based Architecture:</strong>
-            <ul>
-              <li>
-                Modern frontend frameworks like React, Vue.js, and Angular
-                encourage breaking UIs into reusable components.
-              </li>
-              <li>
-                Components are self-contained units of code that manage their
-                own state and logic.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>State Management:</strong>
-            <ul>
-              <li>
-                Managing application state is critical for complex applications.
-                Tools like Redux (for React) and Vuex (for Vue.js) help manage
-                global state.
-              </li>
-              <li>
-                State management ensures data consistency across components and
-                improves performance.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Single Page Applications (SPAs):</strong>
-            <ul>
-              <li>
-                SPAs load a single HTML page and dynamically update content as
-                the user interacts with the app.
-              </li>
-              <li>
-                Frameworks like React and Vue.js are commonly used to build
-                SPAs.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Progressive Web Apps (PWAs):</strong>
-            <ul>
-              <li>
-                PWAs combine the best of web and mobile apps. They are fast,
-                reliable, and can work offline.
-              </li>
-              <li>
-                Key features: Service workers, web app manifests, and caching
-                strategies.
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <h3>The Frontend Development Roadmap</h3>
-        <p>
-          Becoming a proficient frontend developer requires mastering a wide
-          range of skills and tools. Here’s a detailed roadmap to guide you:
-        </p>
-
-        <h4>1. Master the Basics</h4>
-        <ul>
-          <li>
-            <strong>HTML:</strong>
-            <ul>
-              <li>
-                Learn semantic HTML5 tags (<code>&lt;article&gt;</code>,
-                <code>&lt;section&gt;</code>, etc.).
-              </li>
-              <li>
-                Understand accessibility best practices (ARIA roles, alt text).
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>CSS:</strong>
-            <ul>
-              <li>Master the box model, flexbox, and grid layout.</li>
-              <li>
-                Learn CSS preprocessors like Sass or Less for modular and
-                reusable styles.
-              </li>
-              <li>Explore CSS frameworks like Bootstrap or Tailwind CSS.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>JavaScript:</strong>
-            <ul>
-              <li>Understand the DOM and how to manipulate it.</li>
-              <li>
-                Learn ES6+ features (arrow functions, template literals,
-                destructuring).
-              </li>
-              <li>Explore asynchronous programming (Promises, async/await).</li>
-            </ul>
-          </li>
-        </ul>
-
-        <h4>2. Dive into Advanced Topics</h4>
-        <ul>
-          <li>
-            <strong>Frontend Frameworks:</strong>
-            <ul>
-              <li>Learn React, Vue.js, or Angular for building dynamic UIs.</li>
-              <li>Understand component lifecycle methods and hooks.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>State Management:</strong>
-            <ul>
-              <li>Learn Redux, Context API (React), or Vuex (Vue.js).</li>
-              <li>
-                Understand how to manage complex state in large applications.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>API Integration:</strong>
-            <ul>
-              <li>
-                Learn how to fetch data from RESTful APIs or GraphQL endpoints.
-              </li>
-              <li>Understand authentication and authorization (JWT, OAuth).</li>
-            </ul>
-          </li>
-        </ul>
-        <h4>3. Learn Version Control and Build Tools</h4>
-        <ul>
-          <li>
-            <strong>Git and GitHub:</strong> Essential for collaboration and
-            version control.
-          </li>
-          <li>
-            <strong>Package Managers:</strong> Use npm or Yarn to manage
-            dependencies and libraries.
-          </li>
-          <li>
-            <strong>Build Tools:</strong> Learn tools like Webpack, Vite, or
-            Parcel to bundle and optimize your code.
-          </li>
-        </ul>
-
-        <h4>4. Explore Testing and Debugging</h4>
-        <ul>
-          <li>
-            <strong>Testing Frameworks:</strong> Learn how to write unit tests
-            and end-to-end tests using tools like Jest, Cypress, or Testing
-            Library.
-          </li>
-          <li>
-            <strong>Debugging:</strong> Master browser developer tools to debug
-            and optimize your code.
-          </li>
-        </ul>
-
-        <h4>5. Stay Updated with Modern Trends</h4>
-        <ul>
-          <li>
-            <strong>Progressive Web Apps (PWAs):</strong> Learn how to build
-            offline-capable, fast, and reliable web applications.
-          </li>
-          <li>
-            <strong>WebAssembly (Wasm):</strong> Explore how to run
-            high-performance code in the browser.
-          </li>
-          <li>
-            <strong>API Integration:</strong> Learn how to connect your frontend
-            with backend services using REST or GraphQL.
-          </li>
-        </ul>
-
         <h3>Key Skills for Frontend Developers</h3>
         <p>
           To succeed as a frontend developer, you’ll need a mix of technical and
@@ -572,85 +365,6 @@
             </ul>
           </li>
         </ul>
-
-        <h3>The Future of Frontend Development</h3>
-        <p>
-          Frontend development is constantly evolving, driven by new
-          technologies and user expectations. Here’s what to expect in the
-          future:
-        </p>
-        <ul>
-          <li>
-            <strong>AI and Machine Learning:</strong> AI-powered tools like
-            ChatGPT and GitHub Copilot are already transforming how developers
-            write code. Expect more AI-driven tools for debugging, testing, and
-            even generating UI components.
-          </li>
-          <li>
-            <strong>Web3 and Decentralized Apps:</strong> With the rise of
-            blockchain technology, frontend developers will need to learn how to
-            build decentralized applications (dApps) and integrate with Web3
-            APIs.
-          </li>
-          <li>
-            <strong>Enhanced User Experiences:</strong> Technologies like
-            WebAssembly and WebGL will enable more immersive and
-            high-performance web applications, including games and 3D
-            visualizations.
-          </li>
-          <li>
-            <strong>Accessibility and Inclusivity:</strong> There will be a
-            stronger focus on building websites that are accessible to everyone,
-            including people with disabilities.
-          </li>
-          <li>
-            <strong>Low-Code and No-Code Platforms:</strong> While these
-            platforms are growing, they won’t replace developers. Instead,
-            they’ll empower developers to focus on more complex tasks while
-            automating repetitive ones.
-          </li>
-        </ul>
-
-        <h3>How to Stay Ahead in Frontend Development</h3>
-        <p>
-          The field of frontend development moves fast, and staying relevant
-          requires continuous learning. Here’s how to stay ahead:
-        </p>
-        <ul>
-          <li>
-            <strong>Follow Industry Leaders:</strong> Stay updated by following
-            blogs, podcasts, and social media accounts of industry experts.
-          </li>
-          <li>
-            <strong>Contribute to Open Source:</strong> Join open-source
-            projects to gain experience and collaborate with other developers.
-          </li>
-          <li>
-            <strong>Experiment with New Technologies:</strong> Don’t be afraid
-            to try out new frameworks, libraries, or tools.
-          </li>
-          <li>
-            <strong>Build Projects:</strong> The best way to learn is by doing.
-            Build real-world projects to apply your skills and showcase your
-            work.
-          </li>
-        </ul>
-
-        <h3>Conclusion</h3>
-        <p>
-          Frontend development is a dynamic and rewarding field that combines
-          creativity with technical expertise. By mastering the core
-          technologies and staying updated with industry trends, you can build
-          amazing user experiences and shape the future of the web. Whether
-          you’re just starting out or looking to advance your career, the
-          journey of a frontend developer is filled with endless opportunities
-          to learn, grow, and innovate.
-        </p>
-        <p>
-          So, what are you waiting for? Start coding, build something amazing,
-          and join the vibrant community of frontend developers who are shaping
-          the digital world.
-        </p>
       </section>
       <!-- Introduction Section -->
       <section id="intro">
@@ -661,18 +375,13 @@
           interactive, and visually appealing web pages. It uses a system of
           tags and attributes to define the layout, content, and functionality
           of a webpage. In this presentation, we will take a deep dive into the
-          vast world of HTML, exploring all 145 essential HTML tags, categorized
-          for better understanding. Whether you’re a beginner or looking to
-          refresh your knowledge, this session will provide insights into how
-          each tag plays a critical role in building modern web applications.
-          Let’s begin by unraveling the power of HTML and how it shapes the
-          digital experiences we interact with every day.
+          vast world of HTML, exploring all essential HTML tags, categorized for
+          better understanding. Whether you’re a beginner or looking to refresh
+          your knowledge, this session will provide insights into how each tag
+          plays a critical role in building modern web applications. Let’s begin
+          by unraveling the power of HTML and how it shapes the digital
+          experiences we interact with every day.
         </p>
-        <p>
-          In this presentation, we will explore all 145 HTML tags categorized
-          into sections.
-        </p>
-
         <h3>What is HTML?</h3>
         <p>
           HTML stands for <strong>HyperText Markup Language</strong>. It is the
@@ -712,16 +421,16 @@
           a basic HTML template:
         </p>
         <pre><code>
-      &lt;!DOCTYPE html&gt;
-      &lt;html&gt;
-        &lt;head&gt;
-          &lt;meta charset="UTF-8"&gt;
-          &lt;title&gt;Page Title&lt;/title&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-          &lt;!-- Content goes here --&gt;
-        &lt;/body&gt;
-      &lt;/html&gt;
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Page Title&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;!-- Content goes here --&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
         </code></pre>
         <p>Key components include:</p>
         <ul>
@@ -751,7 +460,7 @@
           with an opening and closing tag. For example:
         </p>
         <pre><code>
-      &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
         </code></pre>
         <p>Common HTML tags include:</p>
         <ul>
@@ -767,71 +476,249 @@
           </li>
         </ul>
 
-        <h3>HTML Attributes</h3>
+        <h3>Inline vs. Block-Level Elements</h3>
         <p>
-          Attributes provide additional information about an element. They are
-          placed inside the opening tag and often come in name-value pairs. For
-          example:
+          HTML elements can be categorized into two types based on their default
+          display behavior:
         </p>
-        <pre><code>
-      &lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
-        </code></pre>
-        <p>Common attributes include:</p>
         <ul>
           <li>
-            <code>class</code>: Used for styling or selecting elements with
-            CSS/JavaScript.
+            <strong>Block-Level Elements:</strong>
+            <p>
+              Block-level elements start on a new line and take up the full
+              width of their container. Examples include:
+            </p>
+            <ul>
+              <li><code>&lt;div&gt;</code></li>
+              <li><code>&lt;p&gt;</code></li>
+              <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></li>
+              <li>
+                <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, and
+                <code>&lt;li&gt;</code>
+              </li>
+            </ul>
           </li>
-          <li><code>id</code>: Unique identifier for an element.</li>
-          <li><code>src</code>: Specifies the source for images or scripts.</li>
-          <li><code>href</code>: Specifies the URL for links.</li>
           <li>
-            <code>alt</code>: Provides alternative text for images (important
-            for accessibility).
+            <strong>Inline Elements:</strong>
+            <p>
+              Inline elements do not start on a new line and only take up as
+              much width as necessary. Examples include:
+            </p>
+            <ul>
+              <li><code>&lt;span&gt;</code></li>
+              <li><code>&lt;a&gt;</code></li>
+              <li><code>&lt;img&gt;</code></li>
+              <li><code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code></li>
+            </ul>
           </li>
         </ul>
 
-        <h3>Semantic HTML</h3>
+        <h3>HTML5 Features</h3>
         <p>
-          Semantic HTML involves using tags that convey meaning about the
-          content. This improves accessibility, SEO, and maintainability. Common
-          semantic tags include:
+          HTML5 introduced many new features that make web development more
+          powerful and efficient. Some key features include:
         </p>
         <ul>
           <li>
-            <code>&lt;header&gt;</code>: Introductory content or navigation.
+            <strong>Semantic Elements:</strong> Tags like
+            <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>,
+            <code>&lt;article&gt;</code>, and
+            <code>&lt;section&gt;</code> provide better structure and meaning to
+            web pages.
           </li>
-          <li><code>&lt;nav&gt;</code>: Navigation links.</li>
-          <li><code>&lt;main&gt;</code>: Main content of the page.</li>
-          <li><code>&lt;section&gt;</code>: Defines a section of the page.</li>
           <li>
-            <code>&lt;article&gt;</code>: Self-contained content (e.g., blog
-            post).
+            <strong>Audio and Video Support:</strong> Native support for
+            embedding audio (<code>&lt;audio&gt;</code>) and video
+            (<code>&lt;video&gt;</code>) without requiring third-party plugins.
           </li>
-          <li><code>&lt;aside&gt;</code>: Sidebar or tangential content.</li>
           <li>
-            <code>&lt;footer&gt;</code>: Footer content (e.g., copyright info).
+            <strong>Canvas and SVG:</strong> The
+            <code>&lt;canvas&gt;</code> element allows for dynamic, scriptable
+            rendering of 2D shapes and images, while SVG (Scalable Vector
+            Graphics) enables vector-based graphics.
+          </li>
+          <li>
+            <strong>Form Enhancements:</strong> New input types like
+            <code>date</code>, <code>email</code>, <code>range</code>, and
+            <code>color</code> improve user experience and validation.
+          </li>
+          <li>
+            <strong>Local Storage:</strong> The <code>localStorage</code> and
+            <code>sessionStorage</code> APIs allow for storing data on the
+            client side.
           </li>
         </ul>
 
-        <h3>Best Practices in HTML</h3>
+        <h3>Accessibility in HTML</h3>
         <p>
-          To write clean and maintainable HTML, follow these best practices:
+          Accessibility ensures that web content is usable by everyone,
+          including people with disabilities. HTML provides several features to
+          improve accessibility:
         </p>
         <ul>
-          <li>Use proper indentation for readability.</li>
-          <li>Close all tags to avoid rendering issues.</li>
-          <li>Use semantic tags to improve accessibility and SEO.</li>
           <li>
-            Validate your HTML using tools like the
-            <a href="https://validator.w3.org/" target="_blank">W3C Validator</a
-            >.
+            <strong>Semantic Tags:</strong> Using semantic elements like
+            <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and
+            <code>&lt;footer&gt;</code> helps screen readers understand the
+            structure of the page.
           </li>
           <li>
-            Leave comments using <code>&lt;!-- Comment --&gt;</code> for
-            clarity.
+            <strong>Alt Text for Images:</strong> The <code>alt</code> attribute
+            provides alternative text for images, which is read by screen
+            readers.
+          </li>
+          <li>
+            <strong>ARIA Roles:</strong> ARIA (Accessible Rich Internet
+            Applications) attributes like <code>role</code> and
+            <code>aria-label</code> enhance accessibility for dynamic content.
+          </li>
+          <li>
+            <strong>Keyboard Navigation:</strong> Ensuring all interactive
+            elements are accessible via keyboard is crucial for users who cannot
+            use a mouse.
           </li>
         </ul>
+
+        <h3>Responsive Design with HTML</h3>
+        <p>
+          Responsive design ensures that web pages look great on all devices,
+          from desktops to mobile phones. HTML plays a key role in responsive
+          design:
+        </p>
+        <ul>
+          <li>
+            <strong>Viewport Meta Tag:</strong> The
+            <code
+              >&lt;meta name="viewport" content="width=device-width,
+              initial-scale=1.0"&gt;</code
+            >
+            tag ensures the page scales correctly on mobile devices.
+          </li>
+          <li>
+            <strong>Responsive Images:</strong> Using the
+            <code>srcset</code> and <code>sizes</code> attributes allows
+            browsers to choose the best image size for the user's device.
+          </li>
+          <li>
+            <strong>Flexible Layouts:</strong> Combining HTML with CSS Flexbox
+            and Grid enables creating layouts that adapt to different screen
+            sizes.
+          </li>
+        </ul>
+
+        <h3>Meta Tags and SEO</h3>
+        <p>
+          Meta tags provide metadata about the HTML document, which is used by
+          search engines and browsers. Key meta tags include:
+        </p>
+        <ul>
+          <li>
+            <strong>Charset:</strong>
+            <code>&lt;meta charset="UTF-8"&gt;</code> specifies the character
+            encoding for the document.
+          </li>
+          <li>
+            <strong>Description:</strong>
+            <code
+              >&lt;meta name="description" content="Page description"&gt;</code
+            >
+            provides a brief summary of the page for search engines.
+          </li>
+          <li>
+            <strong>Keywords:</strong>
+            <code
+              >&lt;meta name="keywords" content="HTML, CSS,
+              JavaScript"&gt;</code
+            >
+            (less commonly used today).
+          </li>
+          <li>
+            <strong>Viewport:</strong>
+            <code
+              >&lt;meta name="viewport" content="width=device-width,
+              initial-scale=1.0"&gt;</code
+            >
+            ensures proper scaling on mobile devices.
+          </li>
+        </ul>
+
+        <h3>HTTP vs. HTTPS</h3>
+        <p>
+          HTTP (HyperText Transfer Protocol) and HTTPS (HyperText Transfer
+          Protocol Secure) are protocols used to transfer data between a web
+          server and a browser. Here’s the difference:
+        </p>
+        <ul>
+          <li>
+            <strong>HTTP:</strong>
+            <p>
+              HTTP is the standard protocol for transferring web pages. However,
+              it is not secure, as data is sent in plain text, making it
+              vulnerable to interception.
+            </p>
+          </li>
+          <li>
+            <strong>HTTPS:</strong>
+            <p>
+              HTTPS is the secure version of HTTP. It uses SSL/TLS encryption to
+              protect data during transmission. This ensures that sensitive
+              information, such as passwords or credit card details, is secure.
+            </p>
+          </li>
+        </ul>
+        <p>
+          Modern websites use HTTPS to ensure security and build trust with
+          users. Browsers often display a padlock icon in the address bar to
+          indicate a secure HTTPS connection.
+        </p>
+
+        <h3>Browsers and Their Role</h3>
+        <p>
+          A web browser is a software application used to access and display web
+          pages. Popular browsers include Google Chrome, Mozilla Firefox,
+          Safari, and Microsoft Edge. Browsers perform the following tasks:
+        </p>
+        <ul>
+          <li>Fetch HTML, CSS, and JavaScript files from a web server.</li>
+          <li>Render the content into a visual webpage.</li>
+          <li>Execute JavaScript code for interactivity.</li>
+          <li>Provide tools for debugging and inspecting web pages.</li>
+        </ul>
+
+        <h3>Browser Developer Tools</h3>
+        <p>
+          Modern browsers come with built-in developer tools that help
+          developers debug, test, and optimize their websites. Key features
+          include:
+        </p>
+        <ul>
+          <li>
+            <strong>Inspector:</strong> Allows you to inspect and modify HTML
+            and CSS in real-time.
+          </li>
+          <li>
+            <strong>Console:</strong> Displays JavaScript errors and allows you
+            to run JavaScript code directly.
+          </li>
+          <li>
+            <strong>Network Tab:</strong> Monitors network requests, including
+            loading times and file sizes.
+          </li>
+          <li>
+            <strong>Performance Tab:</strong> Analyzes the performance of your
+            website to identify bottlenecks.
+          </li>
+          <li>
+            <strong>Application Tab:</strong> Manages cookies, local storage,
+            and session storage.
+          </li>
+        </ul>
+        <p>
+          To access developer tools, right-click on a webpage and select
+          <strong>Inspect</strong> or press <code>F12</code> or
+          <code>Ctrl+Shift+I</code> (Windows/Linux) or
+          <code>Cmd+Option+I</code> (Mac).
+        </p>
 
         <h3>Conclusion</h3>
         <p>
@@ -843,7 +730,6 @@
           well-structured HTML!
         </p>
       </section>
-
       <!-- Document Structure Section -->
       <section id="structure">
         <h2>Document Structure & Metadata</h2>
@@ -856,7 +742,7 @@
           attributes.
         </p>
 
-        <h3>1. <code>&lt;!DOCTYPE&gt;</code></h3>
+        <h3 class="imp-tag">1. <code>&lt;!DOCTYPE&gt;</code></h3>
         <p>
           The <code>&lt;!DOCTYPE&gt;</code> declaration is the first line of an
           HTML document. It tells the browser which version of HTML the document
@@ -871,7 +757,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>2. <code>&lt;html&gt;</code></h3>
+        <h3 class="imp-tag">2. <code>&lt;html&gt;</code></h3>
         <p>
           The <code>&lt;html&gt;</code> tag is the root element of an HTML
           document. It wraps all the content on the page and defines the
@@ -897,7 +783,7 @@
           </li>
         </ul>
 
-        <h3>3. <code>&lt;head&gt;</code></h3>
+        <h3 class="imp-tag">3. <code>&lt;head&gt;</code></h3>
         <p>
           The <code>&lt;head&gt;</code> element contains metadata and other
           information about the document that is not displayed on the page
@@ -912,7 +798,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>4. <code>&lt;title&gt;</code></h3>
+        <h3 class="imp-tag">4. <code>&lt;title&gt;</code></h3>
         <p>
           The <code>&lt;title&gt;</code> tag defines the title of the document,
           which is displayed in the browser’s title bar or tab. It is also used
@@ -923,7 +809,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>5. <code>&lt;meta&gt;</code></h3>
+        <h3 class="imp-tag">5. <code>&lt;meta&gt;</code></h3>
         <p>
           The <code>&lt;meta&gt;</code> tag provides metadata about the HTML
           document, such as character encoding, viewport settings, and
@@ -952,7 +838,7 @@
           </li>
         </ul>
 
-        <h3>6. <code>&lt;link&gt;</code></h3>
+        <h3 class="imp-tag">6. <code>&lt;link&gt;</code></h3>
         <p>
           The <code>&lt;link&gt;</code> tag is used to link external resources,
           such as stylesheets, icons, or fonts, to the HTML document. It is a
@@ -982,7 +868,7 @@
           </li>
         </ul>
 
-        <h3>7. <code>&lt;style&gt;</code></h3>
+        <h3 class="imp-tag">7. <code>&lt;style&gt;</code></h3>
         <p>
           The <code>&lt;style&gt;</code> tag is used to embed internal CSS
           styles directly within the HTML document. It is placed within the
@@ -1005,7 +891,7 @@
           </li>
         </ul>
 
-        <h3>8. <code>&lt;base&gt;</code></h3>
+        <h3 class="imp-tag">8. <code>&lt;base&gt;</code></h3>
         <p>
           The <code>&lt;base&gt;</code> tag specifies a base URL for all
           relative URLs in the document. It is a self-closing tag and is placed
@@ -1120,7 +1006,7 @@
           </li>
         </ul>
 
-        <h3>2. <code>&lt;header&gt;</code></h3>
+        <h3 class="imp-tag">2. <code>&lt;header&gt;</code></h3>
         <p>
           The <code>&lt;header&gt;</code> tag defines the introductory content
           or navigation links for a section or the entire webpage. It often
@@ -1134,7 +1020,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>3. <code>&lt;nav&gt;</code></h3>
+        <h3 class="imp-tag">3. <code>&lt;nav&gt;</code></h3>
         <p>
           The <code>&lt;nav&gt;</code> tag is used to define a section of
           navigation links. It typically contains links to other pages or
@@ -1145,7 +1031,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>4. <code>&lt;section&gt;</code></h3>
+        <h3 class="imp-tag">4. <code>&lt;section&gt;</code></h3>
         <p>
           The <code>&lt;section&gt;</code> tag defines a thematic grouping of
           content, such as a chapter, tabbed content, or a standalone section of
@@ -1158,7 +1044,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>5. <code>&lt;article&gt;</code></h3>
+        <h3 class="imp-tag">5. <code>&lt;article&gt;</code></h3>
         <p>
           The <code>&lt;article&gt;</code> tag represents a self-contained piece
           of content that could be distributed independently, such as a blog
@@ -1172,7 +1058,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>6. <code>&lt;aside&gt;</code></h3>
+        <h3 class="imp-tag">6. <code>&lt;aside&gt;</code></h3>
         <p>
           The <code>&lt;aside&gt;</code> tag defines content that is
           tangentially related to the main content, such as sidebars, pull
@@ -1183,7 +1069,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>7. <code>&lt;footer&gt;</code></h3>
+        <h3 class="imp-tag">7. <code>&lt;footer&gt;</code></h3>
         <p>
           The <code>&lt;footer&gt;</code> tag defines the footer of a section or
           webpage. It typically contains information like copyright notices,
@@ -1197,7 +1083,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>8. <code>&lt;main&gt;</code></h3>
+        <h3 class="imp-tag">8. <code>&lt;main&gt;</code></h3>
         <p>
           The <code>&lt;main&gt;</code> tag defines the main content of the
           document. It should contain content that is unique to the document and
@@ -1210,7 +1096,7 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>9. <code>&lt;address&gt;</code></h3>
+        <h3 class="imp-tag">9. <code>&lt;address&gt;</code></h3>
         <p>
           The <code>&lt;address&gt;</code> tag defines contact information for
           the author or owner of a document. It is typically placed within a
@@ -1221,7 +1107,9 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>10. <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></h3>
+        <h3 class="imp-tag">
+          10. <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>
+        </h3>
         <p>
           The <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags define
           headings for sections of content. <code>&lt;h1&gt;</code> is the
@@ -1296,6 +1184,31 @@
                 <code>open</code>: Specifies that the details section is open by
                 default.
               </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>14. <code>&lt;div&gt;</code></h3>
+        <p>
+          The <code>&lt;div&gt;</code> tag is a generic container used to group
+          and structure content on a webpage. It is a block-level element and is
+          often used for layout and styling purposes.
+        </p>
+        <ul>
+          <li>
+            <strong>Purpose:</strong> Groups content for styling or layout.
+          </li>
+          <li>
+            <strong>Common Attributes:</strong>
+            <ul>
+              <li>
+                <code>class</code>: Assigns one or more class names for CSS or
+                JavaScript targeting.
+              </li>
+              <li>
+                <code>id</code>: Provides a unique identifier for the element.
+              </li>
+              <li><code>style</code>: Allows inline CSS styling.</li>
             </ul>
           </li>
         </ul>
@@ -1376,6 +1289,11 @@
             <td>Collapsible content section.</td>
             <td><code>open</code></td>
           </tr>
+          <tr>
+            <td><code>&lt;div&gt;</code></td>
+            <td>Generic container for grouping content.</td>
+            <td><code>class</code>, <code>id</code>, <code>style</code></td>
+          </tr>
         </table>
       </section>
       <section id="text">
@@ -1411,7 +1329,17 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>3. <code>&lt;pre&gt;</code></h3>
+        <h3>3. <code>&lt;br&gt;</code></h3>
+        <p>
+          The <code>&lt;br&gt;</code> tag inserts a line break within text. It
+          is useful for creating breaks without starting a new paragraph.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Inserts a line break.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>4. <code>&lt;pre&gt;</code></h3>
         <p>
           The <code>&lt;pre&gt;</code> tag defines preformatted text. It
           preserves whitespace and line breaks, making it ideal for displaying
@@ -1422,7 +1350,152 @@
           <li><strong>Attributes:</strong> None.</li>
         </ul>
 
-        <h3>4. <code>&lt;blockquote&gt;</code></h3>
+        <h3>5. <code>&lt;b&gt;</code></h3>
+        <p>
+          The <code>&lt;b&gt;</code> tag is used to bold text without implying
+          any additional importance or emphasis.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Bolds text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>6. <code>&lt;strong&gt;</code></h3>
+        <p>
+          The <code>&lt;strong&gt;</code> tag is used to indicate that the text
+          is of strong importance, typically displayed in bold.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Indicates strong importance.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>7. <code>&lt;i&gt;</code></h3>
+        <p>
+          The <code>&lt;i&gt;</code> tag is used to italicize text without
+          implying any additional emphasis or importance.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Italicizes text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>8. <code>&lt;em&gt;</code></h3>
+        <p>
+          The <code>&lt;em&gt;</code> tag is used to emphasize text, typically
+          displayed in italics.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Emphasizes text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>9. <code>&lt;mark&gt;</code></h3>
+        <p>
+          The <code>&lt;mark&gt;</code> tag is used to highlight text, typically
+          with a yellow background.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Highlights text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>10. <code>&lt;small&gt;</code></h3>
+        <p>
+          The <code>&lt;small&gt;</code> tag is used to make text smaller, often
+          used for disclaimers or fine print.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Reduces text size.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>11. <code>&lt;del&gt;</code></h3>
+        <p>
+          The <code>&lt;del&gt;</code> tag is used to indicate deleted text,
+          typically displayed with a strikethrough.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents deleted text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>12. <code>&lt;ins&gt;</code></h3>
+        <p>
+          The <code>&lt;ins&gt;</code> tag is used to indicate inserted text,
+          typically displayed with an underline.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents inserted text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>13. <code>&lt;sub&gt;</code></h3>
+        <p>
+          The <code>&lt;sub&gt;</code> tag is used to display subscript text,
+          typically used for chemical formulas or mathematical expressions.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents subscript text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>14. <code>&lt;sup&gt;</code></h3>
+        <p>
+          The <code>&lt;sup&gt;</code> tag is used to display superscript text,
+          typically used for footnotes or exponents.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents superscript text.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>15. <code>&lt;abbr&gt;</code></h3>
+        <p>
+          The <code>&lt;abbr&gt;</code> tag is used to define an abbreviation or
+          acronym, often with a tooltip showing the full form.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents an abbreviation.</li>
+          <li>
+            <strong>Common Attributes:</strong>
+            <ul>
+              <li>
+                <code>title</code>: Specifies the full form of the abbreviation.
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>16. <code>&lt;address&gt;</code></h3>
+        <p>
+          The <code>&lt;address&gt;</code> tag is used to define contact
+          information for the author or owner of a document.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents contact information.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>17. <code>&lt;bdo&gt;</code></h3>
+        <p>
+          The <code>&lt;bdo&gt;</code> tag is used to override the text
+          direction, allowing for bidirectional text rendering.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Overrides text direction.</li>
+          <li>
+            <strong>Common Attributes:</strong>
+            <ul>
+              <li>
+                <code>dir</code>: Specifies the text direction (<code>ltr</code>
+                for left-to-right or <code>rtl</code> for right-to-left).
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3>18. <code>&lt;blockquote&gt;</code></h3>
         <p>
           The <code>&lt;blockquote&gt;</code> tag defines a block of text that
           is quoted from another source. It is often used for long quotations.
@@ -1439,118 +1512,31 @@
           </li>
         </ul>
 
-        <h3>5. <code>&lt;ol&gt;</code></h3>
+        <h3>19. <code>&lt;cite&gt;</code></h3>
         <p>
-          The <code>&lt;ol&gt;</code> tag defines an ordered list. List items
-          are numbered by default.
+          The <code>&lt;cite&gt;</code> tag is used to define the title of a
+          creative work, such as a book, movie, or song.
         </p>
         <ul>
-          <li>
-            <strong>Purpose:</strong> Represents an ordered (numbered) list.
-          </li>
+          <li><strong>Purpose:</strong> Represents the title of a work.</li>
+          <li><strong>Attributes:</strong> None.</li>
+        </ul>
+
+        <h3>20. <code>&lt;q&gt;</code></h3>
+        <p>
+          The <code>&lt;q&gt;</code> tag is used for short inline quotations,
+          typically enclosed in quotation marks.
+        </p>
+        <ul>
+          <li><strong>Purpose:</strong> Represents a short quotation.</li>
           <li>
             <strong>Common Attributes:</strong>
             <ul>
               <li>
-                <code>type</code>: Specifies the type of numbering (e.g.,
-                <code>1</code>, <code>A</code>, <code>a</code>, <code>I</code>,
-                <code>i</code>).
-              </li>
-              <li>
-                <code>start</code>: Defines the starting number for the list.
+                <code>cite</code>: Specifies the source URL of the quotation.
               </li>
             </ul>
           </li>
-        </ul>
-
-        <h3>6. <code>&lt;ul&gt;</code></h3>
-        <p>
-          The <code>&lt;ul&gt;</code> tag defines an unordered list. List items
-          are bulleted by default.
-        </p>
-        <ul>
-          <li>
-            <strong>Purpose:</strong> Represents an unordered (bulleted) list.
-          </li>
-          <li><strong>Attributes:</strong> None.</li>
-        </ul>
-
-        <h3>7. <code>&lt;li&gt;</code></h3>
-        <p>
-          The <code>&lt;li&gt;</code> tag defines a list item within an ordered
-          or unordered list.
-        </p>
-        <ul>
-          <li><strong>Purpose:</strong> Represents a single item in a list.</li>
-          <li>
-            <strong>Common Attributes:</strong>
-            <ul>
-              <li>
-                <code>value</code>: Specifies the value of a list item in an
-                ordered list.
-              </li>
-            </ul>
-          </li>
-        </ul>
-
-        <h3>8. <code>&lt;dl&gt;</code></h3>
-        <p>
-          The <code>&lt;dl&gt;</code> tag defines a description list. It is used
-          to group terms and their descriptions.
-        </p>
-        <ul>
-          <li><strong>Purpose:</strong> Represents a description list.</li>
-          <li><strong>Attributes:</strong> None.</li>
-        </ul>
-
-        <h3>9. <code>&lt;dt&gt;</code></h3>
-        <p>
-          The <code>&lt;dt&gt;</code> tag defines a term in a description list.
-          It is used within a <code>&lt;dl&gt;</code> element.
-        </p>
-        <ul>
-          <li>
-            <strong>Purpose:</strong> Represents a term in a description list.
-          </li>
-          <li><strong>Attributes:</strong> None.</li>
-        </ul>
-
-        <h3>10. <code>&lt;dd&gt;</code></h3>
-        <p>
-          The <code>&lt;dd&gt;</code> tag defines a description for a term in a
-          description list. It is used within a <code>&lt;dl&gt;</code> element.
-        </p>
-        <ul>
-          <li>
-            <strong>Purpose:</strong> Represents a description in a description
-            list.
-          </li>
-          <li><strong>Attributes:</strong> None.</li>
-        </ul>
-
-        <h3>11. <code>&lt;figure&gt;</code></h3>
-        <p>
-          The <code>&lt;figure&gt;</code> tag groups media content, such as
-          images, diagrams, or code snippets, with an optional caption.
-        </p>
-        <ul>
-          <li>
-            <strong>Purpose:</strong> Groups media content with a caption.
-          </li>
-          <li><strong>Attributes:</strong> None.</li>
-        </ul>
-
-        <h3>12. <code>&lt;figcaption&gt;</code></h3>
-        <p>
-          The <code>&lt;figcaption&gt;</code> tag defines a caption for a
-          <code>&lt;figure&gt;</code> element. It is placed inside the
-          <code>&lt;figure&gt;</code> tag.
-        </p>
-        <ul>
-          <li>
-            <strong>Purpose:</strong> Provides a caption for media content.
-          </li>
-          <li><strong>Attributes:</strong> None.</li>
         </ul>
 
         <h3>Summary Table</h3>
@@ -1575,54 +1561,94 @@
             <td>None</td>
           </tr>
           <tr>
+            <td><code>&lt;br&gt;</code></td>
+            <td>Line break.</td>
+            <td>None</td>
+          </tr>
+          <tr>
             <td><code>&lt;pre&gt;</code></td>
             <td>Preformatted text.</td>
             <td>None</td>
           </tr>
           <tr>
+            <td><code>&lt;b&gt;</code></td>
+            <td>Bold text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;strong&gt;</code></td>
+            <td>Strong importance.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;i&gt;</code></td>
+            <td>Italic text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;em&gt;</code></td>
+            <td>Emphasized text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;mark&gt;</code></td>
+            <td>Highlighted text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;small&gt;</code></td>
+            <td>Smaller text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;del&gt;</code></td>
+            <td>Deleted text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;ins&gt;</code></td>
+            <td>Inserted text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;sub&gt;</code></td>
+            <td>Subscript text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;sup&gt;</code></td>
+            <td>Superscript text.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;abbr&gt;</code></td>
+            <td>Abbreviation.</td>
+            <td><code>title</code></td>
+          </tr>
+          <tr>
+            <td><code>&lt;address&gt;</code></td>
+            <td>Contact information.</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td><code>&lt;bdo&gt;</code></td>
+            <td>Bidirectional text.</td>
+            <td><code>dir</code></td>
+          </tr>
+          <tr>
             <td><code>&lt;blockquote&gt;</code></td>
-            <td>Quoted block.</td>
+            <td>Block quotation.</td>
             <td><code>cite</code></td>
           </tr>
           <tr>
-            <td><code>&lt;ol&gt;</code></td>
-            <td>Ordered list.</td>
-            <td><code>type</code>, <code>start</code></td>
-          </tr>
-          <tr>
-            <td><code>&lt;ul&gt;</code></td>
-            <td>Unordered list.</td>
+            <td><code>&lt;cite&gt;</code></td>
+            <td>Title of a work.</td>
             <td>None</td>
           </tr>
           <tr>
-            <td><code>&lt;li&gt;</code></td>
-            <td>List item.</td>
-            <td><code>value</code></td>
-          </tr>
-          <tr>
-            <td><code>&lt;dl&gt;</code></td>
-            <td>Description list.</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td><code>&lt;dt&gt;</code></td>
-            <td>Term inside <code>&lt;dl&gt;</code>.</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td><code>&lt;dd&gt;</code></td>
-            <td>Description inside <code>&lt;dl&gt;</code>.</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td><code>&lt;figure&gt;</code></td>
-            <td>Groups media.</td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td><code>&lt;figcaption&gt;</code></td>
-            <td>Caption for <code>&lt;figure&gt;</code>.</td>
-            <td>None</td>
+            <td><code>&lt;q&gt;</code></td>
+            <td>Short quotation.</td>
+            <td><code>cite</code></td>
           </tr>
         </table>
       </section>
